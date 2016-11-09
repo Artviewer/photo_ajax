@@ -11,12 +11,10 @@
 	
     </head>
     <body>
-	<form action="addphoto.php" method='post' enctype='multipart/form-data'>
+	<form id='photo' action="addphoto.php" method='post' enctype='multipart/form-data'>
 	    <input type="file" name="photo">
 	    <input type="submit">
 	</form>
-	<div class="gallery">
-	    <div id='photo'></div>
-	</div>
+	<div class="gallery"></div>
     </body>
 </html>
